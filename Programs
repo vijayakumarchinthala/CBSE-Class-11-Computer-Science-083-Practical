@@ -1,6 +1,17 @@
-hi
+x=int(input("Enter base value"))
+n=int(input("Enter Power value"))
+print("x pow of n ->",x**n)
+          
+Output:
+Enter base value2
+Enter Power value3
+x pow of n -> 8
 
 
-
-
-hello
+x=int(input("Enter value of x : "))
+n=int(input("Enter value of n : "))
+sum=0
+for i in range (0,n+1):
+    k=x**i
+    if i in range (0,n+1,2):
+        sum=sum+k
